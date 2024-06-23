@@ -1,0 +1,50 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "UniversoIntent",
+          "samples": [
+            "Tell me a curiosity about the universe",
+            "Tell me about space",
+            "I want to know a curiosity about the universe",
+            "Tell me something about space",
+            "Give me a curiosity about space",
+            "Tell me about the universe",
+            "Tell me something about the universe"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "universe curiosity"
+    }
+  }
+}
